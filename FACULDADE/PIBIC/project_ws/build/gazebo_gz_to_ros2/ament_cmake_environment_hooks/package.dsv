@@ -1,0 +1,4 @@
+source;share/gazebo_gz_to_ros2/local_setup.bash
+source;share/gazebo_gz_to_ros2/local_setup.dsv
+source;share/gazebo_gz_to_ros2/local_setup.sh
+source;share/gazebo_gz_to_ros2/local_setup.zsh

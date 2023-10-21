@@ -1,0 +1,11 @@
+10
+35 25.00 Prato
+60 10.00 Garfo
+89 20.00 Faca
+34 13.00 Copo
+21 16.00 Colher de Silicone
+19 15.00 Caneca
+32 90.00 Taça de Cristal
+99 45.00 Cutelo
+17 11.00 Saleiro
+33 14.00 Guardanapo

@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2
+-- Install configuration: ""
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/launch
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/launch/tugbotinWarehouse.launch.py
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/rviz
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/rviz/tugbotwarehouse.rviz
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/ros_gz_yaml
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/ros_gz_yaml/ros_gz_tugbotwarehouse_bridge.yaml
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/tugbot_warehouse.sdf
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/2.png
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/1.png
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/4.png
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/0.png
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/3.png
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/lib/gazebo_gz_to_ros2/Pose_to_tf
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/package_run_dependencies/gazebo_gz_to_ros2
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/parent_prefix_path/gazebo_gz_to_ros2
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/path.sh
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/path.dsv
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.bash
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.sh
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.zsh
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.dsv
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/package.dsv
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/packages/gazebo_gz_to_ros2
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/cmake/gazebo_gz_to_ros2Config.cmake
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/cmake/gazebo_gz_to_ros2Config-version.cmake
+-- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/package.xml

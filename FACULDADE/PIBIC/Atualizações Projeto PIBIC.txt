@@ -1,0 +1,56 @@
+Atualizações PIBIC
+
+1- 18/08{
+	ros2 baixado no linux - ubuntu (realmente muito complicado baixar no windows)
+	tutorial feito
+	-Config. Enviroment
+	-Using turtlesim, ros2, rqt		
+} 
+
+
+2- 19/08{
+	tutorial feito
+	-Understading Nodes
+	-Understanding Topics
+	-Understanding Services
+	
+}
+
+3- 20/08{
+	tutorial feito
+	-Understanding Parameters
+	-Understanding Actions
+	-Using rqt_console to view logs
+	-Launching Nodes
+	-Recording and Playing back data
+}
+
+4- 24/08{
+	-resolvido problema com colcon test/colcon build
+	tutorial feito
+	-Using colcon to build packages
+	-Creating a workspace
+	-Creating a package
+	
+}
+
+5- 25/08{
+	tutorial feito
+	-Writing a simple publisher and subscriber (C++)
+	-Writing a simple publisher and subscriber (Python)
+	-Writing a simple service and client (C++)
+	-Writing a simple service and client (Python)
+	
+}
+
+6- 04/09{
+	-Creating Custom msg and srv files
+	-Implementing custom interfaces
+	-Using parameters in a class (C++)
+}
+
+7- 05/09{
+	-Using parameters in class (Python)
+	-Using ros2doctor to identify issues
+	-Creating and using plugins (C++)
+}

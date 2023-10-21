@@ -1,0 +1,12 @@
+/*
+Linguagem de Manipulação de Dados (DML - do inglês Data Manipulation Language):
+
+Inserir ao menos 6 registros em cada uma das tabelas do banco de dados.
+Criar 5 instruções de atualização de registros em diferentes tabelas.
+Criar 5 instruções de exclusão de registros em diferentes tabelas.
+*/
+
+USE revendedora_jogos;
+
+INSERT INTO site(CNPJ, address, trading_name, company_name, phone_number, email)
+	VALUES("949852000120", "Avenida Magalhães Freitas 2840", "NexusGLTDA", "Nexus Game", "41999999999", "nexus.games@gmail.com");

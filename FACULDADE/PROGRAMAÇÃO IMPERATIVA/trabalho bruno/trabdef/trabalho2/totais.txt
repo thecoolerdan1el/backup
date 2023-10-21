@@ -1,0 +1,16 @@
+Total geral: 690.00
+Total vendido do produto 35 (Prato): R$250.00
+Total vendido do produto 60 (Garfo): R$80.00
+Total vendido do produto 89 (Faca): R$280.00
+Total vendido do produto 34 (Copo): R$0.00
+Total vendido do produto 21 (Colher): R$80.00
+Total vendido do produto 32767 (): R$0.00
+Total vendido do produto -134229952 (Ôÿÿÿ): R$0.00
+Total vendido do produto 21845 (UU): R$0.00
+Total vendido do produto 1431658504 (): R$0.00
+Total vendido do produto 21845 (ÿ): R$0.00
+Total vendido pelo vendedor 54 (Marisa): R$-10260691393387679758797026562670592.00
+Total vendido pelo vendedor 71 (Elis): R$66.00
+Total vendido pelo vendedor 88 (Elza): R$-10231371402527225169676178254987264.00
+Total vendido pelo vendedor 22 (Sandra): R$-170647168732851529953753515793716346880.00
+Total vendido pelo vendedor 67 (Mario): R$0.00

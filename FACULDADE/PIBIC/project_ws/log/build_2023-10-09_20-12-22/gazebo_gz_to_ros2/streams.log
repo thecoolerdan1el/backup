@@ -1,0 +1,62 @@
+[0.025s] Invoking command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devmain/FACULDADE/PIBIC/project_ws -DCMAKE_INSTALL_PREFIX=/home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2
+[0.102s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.165s] -- Detecting C compiler ABI info
+[0.204s] -- Detecting C compiler ABI info - done
+[0.209s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.209s] -- Detecting C compile features
+[0.210s] -- Detecting C compile features - done
+[0.213s] -- Detecting CXX compiler ABI info
+[0.260s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.436s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.477s] -- Configuring done
+[0.478s] -- Generating done
+[0.479s] -- Build files have been written to: /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2
+[0.481s] Invoked command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/devmain/FACULDADE/PIBIC/project_ws -DCMAKE_INSTALL_PREFIX=/home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2
+[0.482s] Invoking command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2 -- -j12 -l12
+[0.495s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.575s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.611s] -- Configuring done
+[0.612s] -- Generating done
+[0.612s] -- Build files have been written to: /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2
+[0.624s] Invoked command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2 -- -j12 -l12
+[0.640s] Invoking command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2
+[0.645s] -- Install configuration: ""
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/launch
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/launch/tugbotinWarehouse.launch.py
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/rviz
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/rviz/tugbotwarehouse.rviz
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/ros_gz_yaml
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/config/ros_gz_yaml/ros_gz_tugbotwarehouse_bridge.yaml
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse
+[0.645s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/tugbot_warehouse.sdf
+[0.646s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails
+[0.646s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/2.png
+[0.646s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/1.png
+[0.646s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/4.png
+[0.646s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/0.png
+[0.647s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/worlds/TugbotinWarehouse/thumbnails/3.png
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/lib/gazebo_gz_to_ros2/Pose_to_tf
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/package_run_dependencies/gazebo_gz_to_ros2
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/parent_prefix_path/gazebo_gz_to_ros2
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/ament_prefix_path.sh
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/ament_prefix_path.dsv
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/path.sh
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/environment/path.dsv
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.bash
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.sh
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.zsh
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/local_setup.dsv
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/package.dsv
+[0.648s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/ament_index/resource_index/packages/gazebo_gz_to_ros2
+[0.649s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/cmake/gazebo_gz_to_ros2Config.cmake
+[0.649s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/cmake/gazebo_gz_to_ros2Config-version.cmake
+[0.649s] -- Installing: /home/devmain/FACULDADE/PIBIC/project_ws/install/gazebo_gz_to_ros2/share/gazebo_gz_to_ros2/package.xml
+[0.650s] Invoked command in '/home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/devmain/FACULDADE/PIBIC/project_ws/build/gazebo_gz_to_ros2

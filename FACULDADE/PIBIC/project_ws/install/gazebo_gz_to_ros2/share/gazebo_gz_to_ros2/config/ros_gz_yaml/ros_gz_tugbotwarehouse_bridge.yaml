@@ -1,0 +1,156 @@
+#cmd_vel
+- ros_topic_name: "/tugbot/cmd_vel"
+  gz_topic_name: "/model/tugbot/cmd_vel"
+  ros_type_name: "geometry_msgs/msg/Twist"
+  gz_type_name: "gz.msgs.Twist"
+  direction: ROS_TO_GZ
+  
+# clock 
+- ros_topic_name: "/clock"
+  gz_topic_name: "/clock"
+  ros_type_name: "rosgraph_msgs/msg/Clock"
+  gz_type_name: "gz.msgs.Clock"
+  direction: GZ_TO_ROS
+  
+#Odometry
+- ros_topic_name: "/tugbot/odometry"
+  gz_topic_name: "/model/tugbot/odometry"
+  ros_type_name: "nav_msgs/msg/Odometry"
+  gz_type_name: "gz.msgs.Odometry"
+  direction: GZ_TO_ROS
+
+#tf
+- ros_topic_name: "/tf"
+  gz_topic_name: "/model/tugbot/tf"
+  ros_type_name: "tf2_msgs/msg/TFMessage"
+  gz_type_name: "gz.msgs.Pose_V"
+  direction: GZ_TO_ROS
+
+#scan_omni/sensor/scan_omni/scan
+- ros_topic_name: "/tugbot/scan_omni/sensor/scan_omni/scan"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_omni/sensor/scan_omni/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "gz.msgs.LaserScan"
+  direction: GZ_TO_ROS
+- ros_topic_name: "/tugbot/scan_omni/sensor/scan_omni/scan/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_omni/sensor/scan_omni/scan/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS  
+  
+  
+#  pose
+- ros_topic_name: "/tugbot/pose"
+  gz_topic_name: "/model/tugbot/pose"
+  ros_type_name: "geometry_msgs/msg/TransformStamped"
+  gz_type_name: "gz.msgs.Pose"
+  direction: GZ_TO_ROS  
+
+#  camera_back/sensor/color/
+- ros_topic_name: "/tugbot/camera_back/sensor/color/image"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/color/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image"
+  direction: GZ_TO_ROS    
+- ros_topic_name: "/tugbot/camera_back/sensor/color/camera_info"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/color/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS  
+  
+# camera_back/sensor/depth
+- ros_topic_name: "/tugbot/camera_back/sensor/depth/camera_info"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/depth/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS  
+- ros_topic_name: "/tugbot/camera_back/sensor/depth/depth_image/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/depth/depth_image/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS    
+#- ros_topic_name: "/tugbot/camera_back/sensor/depth/depth_image"
+#  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/depth/depth_image"
+#  ros_type_name: "sensor_msgs/msg/Image"
+#  gz_type_name: "ignition.msgs.Image"
+#  direction: GZ_TO_ROS      
+  
+#  camera_front/sensor/color/
+- ros_topic_name: "/tugbot/camera_front/sensor/color/image"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_front/sensor/color/image"
+  ros_type_name: "sensor_msgs/msg/Image"
+  gz_type_name: "ignition.msgs.Image"
+  direction: GZ_TO_ROS    
+- ros_topic_name: "/tugbot/camera_front/sensor/color/camera_info"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_front/sensor/color/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS  
+# camera_front/sensor/depth
+- ros_topic_name: "/tugbot/camera_front/sensor/depth/camera_info"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_back/sensor/depth/camera_info"
+  ros_type_name: "sensor_msgs/msg/CameraInfo"
+  gz_type_name: "ignition.msgs.CameraInfo"
+  direction: GZ_TO_ROS  
+- ros_topic_name: "/tugbot/camera_front/sensor/depth/depth_image/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_front/sensor/depth/depth_image/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS  
+#- ros_topic_name: "/tugbot/camera_front/sensor/depth/depth_image"
+#  gz_topic_name: "/world/world_demo/model/tugbot/link/camera_front/sensor/depth/depth_image"
+#  ros_type_name: "sensor_msgs/msg/Image"
+#  gz_type_name: "ignition.msgs.Image"
+#  direction: GZ_TO_ROS    
+
+# gripper 
+- ros_topic_name: "/tugbot/gripper/sensor/sensor_contact/scan"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/gripper/sensor/sensor_contact/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  direction: GZ_TO_ROS    
+- ros_topic_name: "/tugbot/gripper/sensor/sensor_contact/scan/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/gripper/sensor/sensor_contact/scan/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS  
+#sensor/imu/imu
+- ros_topic_name: "/tugbot/sensor/imu/imu"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/imu_link/sensor/imu/imu"
+  ros_type_name: "sensor_msgs/msg/Imu"
+  gz_type_name: "ignition.msgs.IMU"
+  direction: GZ_TO_ROS   
+ 
+# scan_back/sensor/scan_back/scan
+- ros_topic_name: "/tugbot/scan_back/sensor/scan_back/scan"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_back/sensor/scan_back/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  direction: GZ_TO_ROS    
+- ros_topic_name: "/tugbot/scan_back/sensor/scan_back/scan/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_back/sensor/scan_back/scan/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS  
+  
+ # scan_front/sensor/scan_front/scan
+- ros_topic_name: "/tugbot/scan_front/sensor/scan_front/scan"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_front/sensor/scan_front/scan"
+  ros_type_name: "sensor_msgs/msg/LaserScan"
+  gz_type_name: "ignition.msgs.LaserScan"
+  direction: GZ_TO_ROS    
+- ros_topic_name: "/tugbot/scan_front/sensor/scan_front/scan/points"
+  gz_topic_name: "/world/world_demo/model/tugbot/link/scan_front/sensor/scan_front/scan/points"
+  ros_type_name: "sensor_msgs/msg/PointCloud2"
+  gz_type_name: "ignition.msgs.PointCloudPacked"
+  direction: GZ_TO_ROS   
+
+
+
+
+
+ 
+ 
+
+
+

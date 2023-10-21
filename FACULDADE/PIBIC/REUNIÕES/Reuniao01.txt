@@ -1,0 +1,8 @@
+https://docs.ros.org/en/humble/Tutorials.html
+
+Instalação - https://docs.ros.org/en/humble/Installation/Windows-Install-Binary.html
+Instalação - https://ms-iot.github.io/ROSOnWindows/GettingStarted/SetupRos2.html
+
+Tutoriais - https://docs.ros.org/en/humble/Tutorials.html
+
+

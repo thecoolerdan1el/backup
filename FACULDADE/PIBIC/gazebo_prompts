@@ -1,0 +1,6 @@
+ros2 run ros_gz_bridge parameter_bridge /TOPIC@ROS_MSG@GZ_MSG - PADRÃO PARA A ENTRADA 
+iniciar mundos - gz sim .sdf
+ros2 topic echo /keyboard/keypress - EXEMPLO DE LISTENER 
+
+
+
